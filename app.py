@@ -8,7 +8,7 @@ app = web.application(urls, globals())
 
 class index:
     def GET(self):
-        greeting = "Hello World"
+        greeting = "Hello World, Afzal"
         return greeting
 
 if __name__ == "__main__":
